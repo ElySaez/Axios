@@ -5,7 +5,6 @@ submit_form.onsubmit = function (e) {
     e.preventDefault();// evita el comportamiento natural del form
 }
 
-
 //btn de buscar
 document.getElementById("buscar").onclick = function () {
     let rut_q = document.getElementById("rut_q").value;
@@ -52,6 +51,6 @@ function buscar(rut_q) {
             // handle error
             // console.log(error);
             alert(`Hay un error: ${error.message}`);
-            
+
         });
 }
