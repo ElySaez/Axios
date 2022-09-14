@@ -51,6 +51,7 @@ function buscar(rut_q) {
         .catch(function (error) {
             // handle error
             // console.log(error);
-            alert("exploto: " + error.message)
+            alert(`Hay un error: ${error.message}`);
+            
         });
 }

@@ -1,0 +1,36 @@
+.body {
+    background-image: url("f.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+   
+    position: relative;
+
+}
+
+.label {
+    color: aliceblue;
+
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    ;
+    background-color: none;
+
+}
+
+#buscar {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+#add {
+    margin-bottom: 10px;
+}
