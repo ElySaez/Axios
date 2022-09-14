@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+
+    <h4>title</h4>
+
+    <form id="form_rut">
+        <div>
+            <label for="rut_q">rut a buscar: </label>
+            <input type="text" name="rut_q" id="rut_q">
+        </div>
+        <button type="submit" name="buscar" id="buscar">buscar</button>
+    </form>
+    
+    <div>
+        <div class="content">
+            <p id="name"></p>
+            <p id="rut"></p>
+            <p>activities</p>
+            <div id="activities"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
