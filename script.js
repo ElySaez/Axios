@@ -1,6 +1,6 @@
 
 // control para formulario
-var submit_form = document.getElementById("form_rut");
+let submit_form = document.getElementById("form_rut");
 submit_form.onsubmit = function (e) {
     e.preventDefault();// evita el comportamiento natural del form
 }
